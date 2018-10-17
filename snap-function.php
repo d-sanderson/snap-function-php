@@ -22,7 +22,7 @@ function myArray() {
 
 $teachers = array("George", "Chloe", "Brent", "Dan");
 
-	echo "Our main instruction is " . $teachers[0] . ". Our Pro-Dev instructor is " . $teachers[3] . ". our chief engineer is " . $teachers[1];
+	echo "Our main instruction is " . $teachers[0] . ". Our Pro-Dev instructor is " . $teachers[3] . ". Our chief engineer is " . $teachers[1];
 }
 
 echo myArray();
