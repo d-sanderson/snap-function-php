@@ -27,4 +27,32 @@ $teachers = array("George", "Chloe", "Brent", "Dan");
 
 echo myArray();
 
+//George's Examples:
+
+function integer(int $parameter) {
+	return($parameter * 2);
+}
+
+function string(string $parameter) {
+	$return = str_repeat($parameter, 10);
+	return($return . " ". "Batman!");
+}
+
+function arrayMethod(array $array) {
+	$newArray = [];
+	foreach($array as $value) {
+		$newArray[] = $value . " " . $value;
+	}
+	return $newArray;
+}
+
+$return1 = integer(9);
+var_dump($return1);
+
+$return2 = string("Na");
+var_dump($return2);
+
+$return3 = arrayMethod(["na", "na", "hey"]);
+var_dump($return3);
+
 ?>
